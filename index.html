@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Goodna Nursery Prototype Website</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/cca87b12d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <p>Hello World!</p>
-    <h1>Make changes</h1>
-    
+    <section id="header">
+        <a href="#"><img src="assets/indeximage/logo.jpg" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories 
+                      <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="javascript:void(0)">Link 1</a>
+                      <a href="javascript:void(0)">Link 2</a>
+                      <a href="javascript:void(0)">Link 3</a>
+                    </div>
+                  </div>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit"><i class="fa-solid fa-search"></i></button>
+                    </form>
+                </div>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
 </body>
 </html>
