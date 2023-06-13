@@ -41,14 +41,14 @@ body
     display: flex;
     align-items: center;
 }
-.navbar
+.navbar ul
 {
     align-items: center ;
     position: relative;
     display: flex;
     gap: 30px;
 }
-.navbar li
+.navbar ul li
 {
     list-style: none;
 }
