@@ -11,36 +11,150 @@
     
 </head>
 <body>
-    <div class="navbar" id="navbar">
-        <a href="index.html"><img src="assets/indeximage/Goodna_Nursery_logo.png" class="logo" alt=""></a>
-
-        <div>
-            <ul class="navigation">
-                <div class="dropdown">
-                    <button class="dropbtn">Categories 
-                      <i class="fa-solid fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="javascript:void(0)">Link 1</a>
-                      <a href="javascript:void(0)">Link 2</a>
-                      <a href="javascript:void(0)">Link 3</a>
-                    </div>
-                  </div>
-                <div class="search-container">
-                    <form action="/action_page.php">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa-solid fa-search"></i></button>
-                    </form>
+  <div class="navbar" #navbar id="navbar">
+    <a href="#" class="logo">Goodna Nursery</a>
+    <div class="group">
+        <ul class="navigation">
+            <li><div class="dropdown">
+                <button class="dropbtn">Categories 
+                  <i class="fa-solid fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="javascript:void(0)">Link 1</a>
+                  <a href="javascript:void(0)">Link 2</a>
+                  <a href="javascript:void(0)">Link 3</a>
                 </div>
-                <li><a href="shop.html">Contact Us</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
-                <a href="#" id="close"><i class="far fa-times"></i></a>
-            </ul>
-        </div>
-        <div id="mobile">
-            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
-            <i id="bar" class="fas fa-outdent"></i>
-        </div>
+              </div>
+            </li>
+            <li>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa-solid fa-search"></i></button>
+                </form>
+            </div>
+            </li>
+            <li><a href="#Contactus">Contact Us</a></li>
+            <li><a href="#">Book</a></li>
+            <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </ul>
     </div>
+  </div>
+  <section class="welcome-space-container">
+    <section class="welcome-space-container-text">
+        <h1><strong>Welcome to Goodna Nursery</strong></h1>
+        <button>Book now</button>
+    </section>
+  </section>
+
+  <section id="product1" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Summer Collection New Morden Design</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="assets/products/place_holder.png" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="assets/products/place_holder.png" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="assets/products/place_holder.png" alt="">
+            <div class="des">
+                <span>category</span>
+                <h5>Plants</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+            <img src="assets/products/place_holder.png" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <!-- about me section -->
+
+        <a id="Contactus">
+          <section id="about-head" class="section-p1">
+          <img src="assets/indeximage/about.jpg" alt="">
+          <div>
+              <h2>Who We Are?</h2>
+              <p>We are a local plant nursery selling the best quality plants to our customers. We have all the plants that you could possibly look for and are up to the highest standards. <br> Contact us: -----------</bt></p>
+              <br><br>
+  
+              <marquee bgcolor="#ccc" loop="-1" scrollamount="7" width="100%">The Best Place To Buy Plants!
+              </marquee>
+          </div>
+          </section>
+        </a>
 </body>
+<footer class="section-p1">
+  <div class="col">
+      <img class="logo" src="assets/indeximage/Goodna_Nursery_logo.png" alt="">
+      <h4>Contact</h4>
+      <p><strong>Address: </strong>------------------</p>
+      <p><strong>Phone:</strong>--------------------</p>
+      <p><strong>Hours:</strong> 8:00 - 17:00, Mon - Sun</p>
+      <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest-p"></i>
+              <i class="fab fa-youtube"></i>
+          </div>
+      </div>
+  </div>
+  <div class="copyright">
+      <p>Canidate Code: kqc286</p>
+  </div>
+</footer>
 </html>
